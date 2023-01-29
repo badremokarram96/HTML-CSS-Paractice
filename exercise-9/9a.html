@@ -1,0 +1,39 @@
+<style>
+  .container{
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .cat{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    vertical-align: middle;
+    object-fit: cover;
+    object-position: center;
+  }
+  input{
+    margin-left: 8px;
+    border: none;
+    width: 280px;
+    vertical-align: middle;
+    font-size: 16px;
+
+  }
+  button{
+    vertical-align: middle;
+    background-color: rgb(31, 154, 192);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+  }
+</style>
+<div class="container">
+  <img class="cat" src="../thumbnails/cat.jpg" alt=""/>
+  <input type="text" placeholder="What's happening?"/>
+  <button>Tweet</button>
+</div>

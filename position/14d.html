@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    p{
+      margin: 0;
+      padding: 0;
+    }
+    .right-sidebar{
+      background-color: green;
+      color: white;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100px;
+    }
+    .middle-card{
+      /* position: fixed; */
+      background-color: white;
+      /* display: flex; */
+      /* flex-direction: column; */
+      width: 400px;
+      box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      padding: 12px 15px;
+      /* align-items: center;
+      justify-content: center; */
+    }
+    .title{
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .middle{
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .modal{
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="right-sidebar">
+    right sidebar
+  </div>
+  <div class="modal">
+  <div class="middle-card">
+    <p class="title">Model Title</p>
+    <p class="middle">This is a modal</p>
+    <button>Close</button>
+  </div>
+</div>
+</body>
+</html>

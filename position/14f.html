@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p{
+      margin: 0;
+      padding: 0;
+      font-family: Arial;
+    }
+    .container{
+      display: flex;
+    }
+    .first-right-sidebar{
+      background-color: black;
+      position: fixed;
+      width: 70px;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      display: flex;
+      /* justify-content: center; */
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+    }
+    img{
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+     
+    }
+    .cat2{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .second-right-sidebar{
+      background-color: rgb(75, 70, 70);
+      color: white;
+      padding: 15px 15px;
+      position: fixed;
+      width: 150px;
+      top: 0;
+      left: 70px;
+      bottom: 0;
+    }
+    .up{
+      display: flex;
+      justify-content: space-between;
+      /* width: 150px; */
+      /* margin-bottom: 12px; */
+    }
+    .plus{
+      font-weight: bold;
+    }
+    .new{
+      padding: 10px 0px;
+    }
+    .updates{
+      padding: 10px 0px; 
+    }
+    .faq{
+      padding: 10px 0px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="first-right-sidebar">
+      <img class="cat" src="../thumbnails/cat.jpg" alt="">
+      <img class="cat2" src="../thumbnails/cat2.jpg" alt="">
+      <img class="dog" src="../thumbnails/dog.jpg" alt="">
+    </div>
+    <div class="second-right-sidebar">
+      <div class="up">
+      <p class="info">INFO</p>
+      <p class="plus">+</p>
+      </div>
+      <p class="new"># new-videos</p>
+      <p class="updates"># updates</p>
+      <p class="faq"># faq</p>
+    </div>
+  </div>
+</body>
+</html>

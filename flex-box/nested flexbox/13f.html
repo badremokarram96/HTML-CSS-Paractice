@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p{
+      padding: 0;
+      margin: 0;
+      font-family: Arial;
+    }
+    .container{
+      display: flex;
+      width: 400px;
+      /* border: 1px solid black; */
+      padding: 12px;
+    
+    }
+    .img-profile{
+      margin-right: 10px;
+    }
+    .profile-pic{
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+    }
+    .profile-name{
+      font-size: 17px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      /* color: gray; */
+    }
+    .card{
+      border: 1px solid gray;
+      display: flex;
+      border-radius: 15px;
+      width: 320px;
+    }
+    .left{
+      width: 40%;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      background-color: gray;
+    }
+    .right{
+      padding: 15px 10px;
+    }
+   .disc{
+      margin-bottom: 10px; 
+    }
+    .text-p{
+      line-height: 20px;
+      font-size: 15px;
+    }
+    #text{
+      color: gray;
+    }
+    .youtube{
+      margin-bottom: 5px;
+    }
+    .backend{
+      line-height: 23px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="img-profile">
+      <img class="profile-pic" src="../../thumbnails/cat.jpg" alt="">
+    </div>
+    <div class="disc-card">
+      <div class="disc">
+        <p class="profile-name">supersimple.dev <span id="text">@SuperSimpleDev</span></p>
+        <p class="text-p">What is backend web development? A complete overview. New video is up!</p>
+      </div>
+      <div class="card">
+        <div class="left"></div>
+        <div class="right">
+          <p class="youtube">youtube.com</p>
+          <p class="backend">Backend web development - a complete overview (2021)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

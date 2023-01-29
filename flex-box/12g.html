@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p{
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      color: gray;
+    }
+    .container{
+      width: 400px;
+      border: 1px solid black;
+      padding: 12px 12px;
+    }
+    .img{
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+    .flexbox{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0px;
+    }
+    button{
+      background-color: rgb(69, 141, 235);
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+    .img-pro{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .name{
+      color: black;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="flexbox">
+      <div class="img-pro">
+        <div class="picture"><img class="img" src="../thumbnails//cat.jpg"></div>
+        <div>
+          <p class="name">oliver</p>
+          <p>the cat</p>
+          <p>Popular</p>
+        </div>
+      </div>
+      <div><button>Follow</button></div>
+    </div>
+
+    <div class="flexbox">
+      <div class="img-pro">
+        <div class="picture"><img class="img" src="../thumbnails//cat2.jpg"></div>
+        <div>
+          <p class="name">Mimi</p>
+          <p>Sleepy Cat</p>
+          <p>Popular</p>
+        </div>
+      </div>
+      <div><button>Follow</button></div>
+    </div>
+
+    <div class="flexbox">
+      <div class="img-pro">
+        <div class="picture"><img class="img" src="../thumbnails//dog.jpg"></div>
+        <div>
+          <p class="name">Rex</p>
+          <p>Happy Bulldog</p>
+          <p>Popular</p>
+        </div>
+      </div>
+      <div><button>Follow</button></div>
+    </div>
+  </div>
+</body>
+</html>
